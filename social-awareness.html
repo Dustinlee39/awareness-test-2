@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Self-Awareness - Advanced Self-Awareness Assessment Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emotional Self-Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="social-awareness.html">Social Awareness</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="accountability.html">Accountability</a></li>
+                <li><a href="time-shifted-reflection.html">Time-Shifted Reflection</a></li>
+                <li><a href="decision-chains.html">Decision Chains</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>User Profile Integration</h2>
+            <p>To begin your journey toward enhanced emotional self-awareness, you will first create a user profile. This profile will serve as your personal space within the application, where you can track your emotional ratings, reflections, and progress over time. The user profile creation process involves:</p>
+            <ol>
+                <li>Providing basic information, including your name, age, and email.</li>
+                <li>Selecting your emotional triggers from a predefined list.</li>
+                <li>Setting your personal goals regarding emotional awareness and growth.</li>
+                <li>Confirming your profile with a verification email for security.</li>
+            </ol>
+            <p>Once your profile is set up, you can access tailored assessments and resources designed to meet your unique emotional needs.</p>
+
+            <h2>Initial Emotional Rating</h2>
+            <p>In this section, you will rate your current emotional state using a 1-12 Likert scale. The scale ranges from 1 (very low emotional state) to 12 (extremely high emotional state). Below is a visual representation of the scale:</p>
+            <div class="likert-scale">
+                <input type="range" min="1" max="12" value="6" id="emotionalRating" />
+                <label for="emotionalRating">Rate Your Emotion: <span id="ratingValue">6</span></label>
+                <div class="emoticons">
+                    <span>😟</span>
+                    <span>😐</span>
+                    <span>😊</span>
+                    <span>😁</span>
+                </div>
+            </div>
+
+            <h2>Conditional Scenarios</h2>
+            <p>Based on your emotional rating, you will be presented with scenarios that reflect your current emotional state. For example:</p>
+            <div class="scenario">
+                <h3>If your rating is below 5:</h3>
+                <p>You might receive a scenario like: "You feel overwhelmed by a recent challenge at work. How would you respond?"</p>
+                <p><strong>Options:</strong></p>
+                <ul>
+                    <li>A) Take a break and clear your mind.</li>
+                    <li>B) Discuss your feelings with a friend.</li>
+                    <li>C) Seek guidance from a mentor.</li>
+                </ul>
+                <p>After selecting an option, you will answer a follow-up question to explore your decision-making process.</p>
+            </div>
+
+            <h2>Reflective Prompts</h2>
+            <p>After engaging with the scenarios, you will have the opportunity to reflect on your emotional triggers. The application will present you with reflective prompts, such as:</p>
+            <ul>
+                <li>What specific event triggered your emotional state today?</li>
+                <li>How did you respond, and how did it make you feel?</li>
+                <li>What would you do differently next time?</li>
+            </ul>
+            <p>Answering these questions will deepen your understanding of your emotional patterns and help you develop strategies for managing them.</p>
+
+            <h2>Additional Features</h2>
+            <p>The Emotional Self-Awareness section also includes:</p>
+            <ul>
+                <li>
+                    <strong>Emotional Tracking:</strong>
+                    <p>Keep a daily log of your emotional ratings and triggers to identify patterns over time.</p>
+                </li>
+                <li>
+                    <strong>AI Insights:</strong>
+                    <p>Receive tailored insights based on your responses, helping you to understand your emotional landscape.</p>
+                </li>
+                <li>
+                    <strong>Progress Reports:</strong>
+                    <p>Get weekly summaries of your emotional ratings and reflections to track your growth.</p>
+                </li>
+            </ul>
+
+            <h3>Getting Started with Your Emotional Assessment</h3>
+            <p>Now that you understand the importance of emotional self-awareness, it's time to start your assessment. Click the button below to proceed to your emotional rating.</p>
+            <a href="start-assessment.html" class="button">Start Emotional Assessment</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Advanced Self-Awareness Assessment Application. All Rights Reserved.</p>
+        <p><a href="feedback.html">Provide Feedback</a> | <a href="community.html">Join Community Discussions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

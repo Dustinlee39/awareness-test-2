@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflection - Advanced Self-Awareness Assessment Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reflection & Self-Video Review</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="emotional-awareness.html">Emotional Awareness</a></li>
+                <li><a href="social-awareness.html">Social Awareness</a></li>
+                <li><a href="accountability.html">Accountability</a></li>
+                <li><a href="time-shifted-reflection.html">Time-Shifted Reflection</a></li>
+                <li><a href="decision-chains.html">Decision Chains</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Recording Your Reflections</h2>
+            <p>This section emphasizes the importance of recording your thoughts and feelings. By documenting your reflections, you can gain deeper insights into your emotional and social behaviors.</p>
+            <p><strong>Instructions:</strong> Use the recording tool below to capture your reflections on the stress management strategies you employed after a challenging event.</p>
+            <button id="start-recording" onclick="startRecording()">Start Recording</button>
+            <button id="stop-recording" onclick="stopRecording()" disabled>Stop Recording</button>
+            <audio controls id="audio-player" style="display:none;"></audio>
+
+            <h2>Reflecting on Stress Management Strategies</h2>
+            <p>After recording, consider the following questions to guide your reflection:</p>
+            <ul>
+                <li>What strategies did you use to manage your stress?</li>
+                <li>How effective were these strategies in helping you cope?</li>
+                <li>What could you have done differently?</li>
+                <li>What triggers did you identify that lead to stress?</li>
+            </ul>
+
+            <h3>Video Review Instructions</h3>
+            <p>In addition to audio reflections, you have the option to record a video of yourself discussing your experiences. This can provide even more clarity and context to your reflections.</p>
+            <p><strong>Instructions:</strong> Click the button below to start your video recording.</p>
+            <button id="start-video" onclick="startVideoRecording()">Start Video Recording</button>
+            <button id="stop-video" onclick="stopVideoRecording()" disabled>Stop Video Recording</button>
+            <video controls id="video-player" style="display:none;"></video>
+
+            <h2>Benefits of Reflection</h2>
+            <p>Reflection is a critical part of personal growth. By regularly reviewing your thoughts and actions, you can:</p>
+            <ul>
+                <li>Identify patterns in your behavior that may need adjustment.</li>
+                <li>Recognize triggers that impact your emotional state.</li>
+                <li>Develop a clearer understanding of your values and goals.</li>
+                <li>Enhance your decision-making skills by learning from past experiences.</li>
+            </ul>
+
+            <h2>Sharing Your Reflections</h2>
+            <p>For those who are comfortable, you may choose to share your recorded reflections with trusted friends or mentors. Sharing can provide additional perspectives and support as you navigate your journey of self-awareness.</p>
+            <p><strong>Confidentiality Reminder:</strong> Always consider the privacy of your reflections. Only share with individuals you trust.</p>
+
+            <h2>Getting Started with Your Reflection</h2>
+            <p>Now that you have the tools and instructions, it’s time to dive into your reflections. Click the buttons above to begin recording your thoughts and experiences.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Advanced Self-Awareness Assessment Application. All Rights Reserved.</p>
+        <p><a href="feedback.html">Provide Feedback</a> | <a href="community.html">Join Community Discussions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
